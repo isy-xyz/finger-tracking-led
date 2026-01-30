@@ -195,14 +195,6 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 - [OpenCV](https://opencv.org/) for computer vision tools
 - ESP32 community for hardware support
 
-## Future Improvements
-
-- [ ] Add support for multiple hands
-- [ ] Implement gesture recognition for commands
-- [ ] Add wireless communication (WiFi/Bluetooth)
-- [ ] Create GUI for parameter adjustment
-- [ ] Add recording and playback features
-- [ ] Support for additional output devices
 
 ---
 
