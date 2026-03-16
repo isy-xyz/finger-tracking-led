@@ -4,9 +4,9 @@ import serial
 import time
 import math
 
-# Check ESP32 is there or not (I use udev rules, you can change it into COM or /dev/ttyUSBX)
+# Check ESP32 is there or not 
 try:
-	arduino = serial.Serial(port='/dev/myESP32', baudrate=115200, timeout=0.1)
+	arduino = serial.Serial(port='/dev/ttyUSB0', baudrate=115200, timeout=0.1)
 	time.sleep(2)
 	print("ESP32 Connected.")
 except: 
